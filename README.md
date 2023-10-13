@@ -133,20 +133,6 @@ Point test_point(Point points[],long count)
     return maxPoint;
 }
 
-
-Points* test_point_two(Points points[], long count)
-{
-    for (long i = 0; i < count; ++i) {
-        std::cout << "Points " << i << ": x = " << points[i].x << ", y = " << points[i].y << std::endl;
-
-        // 打印 points[10] 数组中的每个 Point
-        for (int j = 0; j < 10; ++j) {
-            std::cout << "    Point " << j << ": x = " << points[i].points[j].x << ", y = " << points[i].points[j].y << std::endl;
-        }
-    }
-    return points;
-}
-
 ```
 
 
